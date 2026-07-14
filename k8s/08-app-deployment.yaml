@@ -35,7 +35,7 @@ spec:
         - name: employee-app
           # Build & push this yourself, e.g. yourdockerhubuser/employee-app:1.0.0
           # For local clusters (minikube/kind) load the image instead of pushing.
-          image: employee-app:1.0.0
+          image: sachin8181/employee-app:v1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
